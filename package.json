@@ -1,0 +1,44 @@
+{
+  "name": "ifyapi",
+  "version": "0.0.6",
+  "description": "API for creating multi-platform chatbots and applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IfyDevelopers/IfyApi.git"
+  },
+  "keywords": [
+    "multiplatform",
+    "api",
+    "typescript",
+    "node"
+  ],
+  "author": "valloff",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "bugs": {
+    "url": "https://github.com/IfyDevelopers/IfyApi/issues"
+  },
+  "homepage": "https://github.com/IfyDevelopers/IfyApi#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "telegraf": "^4.16.3"
+  }
+}
