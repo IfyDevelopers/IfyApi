@@ -9,7 +9,7 @@ npm install ifyapi
 ```
 
 ***
-❗ If you find any bug or want to suggest something new, please contact [issues](https://github.com/IfyDevelopers/IfyApi/issues) or write directly to mail@ifydev.xyz ❗
+❗If you find any bug or want to suggest something new, please contact [issues](https://github.com/IfyDevelopers/IfyApi/issues) or write directly to mail@ifydev.xyz❗
 ***
 
 
