@@ -1,13 +1,14 @@
 {
   "name": "ifyapi",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "API for creating multi-platform chatbots and applications.",
   "main": "dist/index.js",
+  "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
-    "build": "tsup src/index.ts --minify --dts"
+    "build": "tsup src/index.ts --format esm --minify --dts"
   },
   "repository": {
     "type": "git",
