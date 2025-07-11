@@ -1,6 +1,6 @@
 {
   "name": "ifyapi",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "API for creating multi-platform chatbots and applications.",
   "main": "dist/index.js",
   "type": "module",
@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/IfyDevelopers/IfyApi#readme",
   "devDependencies": {
+    "@types/node": "^24.0.13",
     "tsup": "^8.5.0",
     "tsx": "^4.20.2",
     "typescript": "^5.8.3"
